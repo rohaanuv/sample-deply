@@ -15,7 +15,6 @@
 
     - name: deploy index file
       community.docker.docker_compose:
-        project_src: /sample-deply/
         stete: present
         scale:
           app: 3
