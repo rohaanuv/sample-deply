@@ -6,7 +6,7 @@
   connection: ssh
   vars:
     pkgname: docker
-    index_path: /mnt/
+    index_path: /mnt/sample-deply/
 
   tasks:
     - name: install docker
