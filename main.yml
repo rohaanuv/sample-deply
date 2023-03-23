@@ -15,7 +15,9 @@
 
     - name: deploy index file
       community.docker.docker_compose:
-        project_src: sample-deply
+        project_src: /mnt/sample-deply
+        files:
+        - docker-compose.yml
         scale:
           app: 3
 
