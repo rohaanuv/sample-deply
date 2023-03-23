@@ -14,7 +14,7 @@
       notify: start service
 
     - name: deploy index file
-      docker-compose:
+      community.docker.docker_compose:
         project_src: "{{destiny}}"
         stete: present
         scale:
